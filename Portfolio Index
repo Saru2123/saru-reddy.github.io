@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saraswathi G — Data Analyst | SQL | Tableau | Python</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background-color: #f8f9fa; color: #333; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    header { background-color: #007b7f; color: white; padding: 4rem 0; text-align: center; }
+    h1 { font-size: 2.5rem; font-weight: 600; }
+    .section-title { color: #007b7f; font-weight: 600; margin-bottom: 1rem; text-transform: uppercase; }
+    .project-card { background: white; border: 1px solid #e0e0e0; border-radius: 10px; box-shadow: 0 3px 6px rgba(0,0,0,0.05); padding: 1.5rem; margin-bottom: 2rem; }
+    footer { background-color: #007b7f; color: white; text-align: center; padding: 1.5rem 0; margin-top: 2rem; }
+    a { color: #007b7f; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .btn-custom { background-color: #007b7f; color: white; border-radius: 25px; padding: 0.5rem 1.5rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Saraswathi G</h1>
+    <p class="lead">Data Analyst | SQL | Tableau | Python</p>
+    <div class="mt-3">
+      <a href="https://www.linkedin.com/in/saraswathi-g-ba-analyst/" class="btn btn-light btn-sm me-2" target="_blank">LinkedIn</a>
+      <a href="https://github.com/saru-reddy" class="btn btn-light btn-sm" target="_blank">GitHub</a>
+    </div>
+  </header>
+
+  <main class="container py-5">
+    <section id="about" class="mb-5">
+      <h2 class="section-title">About Me</h2>
+      <p>Results-driven Data Analyst with 7+ years of experience leveraging SQL, BigQuery, Tableau, and Python to deliver actionable insights and data-driven solutions. Skilled in building automated reporting pipelines, optimizing dashboards, and integrating enterprise data systems across cloud environments like Azure and AWS. Passionate about transforming complex data into clear business stories that drive strategic decisions.</p>
+    </section>
+
+    <section id="projects" class="mb-5">
+      <h2 class="section-title">Featured Projects</h2>
+
+      <div class="project-card">
+        <h4>Product Engagement Dashboard</h4>
+        <p>Analyzed customer engagement metrics and conversion funnels to identify key drop-off points, improving product retention by 10%. Built with SQL, BigQuery, and Tableau.</p>
+        <a href="https://github.com/saru-reddy/Product-Engagement-Dashboard" target="_blank">View Project on GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <h4>Customer Segmentation & LTV Forecast</h4>
+        <p>Developed RFM segmentation and predictive LTV model to identify high-value customers. Used Python (pandas, scikit-learn), SQL, and Tableau for visualization.</p>
+        <a href="https://github.com/saru-reddy/Customer-Segmentation-LTV" target="_blank">View Project on GitHub →</a>
+      </div>
+
+      <div class="project-card">
+        <h4>Automated Reporting Pipeline</h4>
+        <p>Built an end-to-end automated ETL pipeline using Python and Azure Data Factory to streamline daily data refreshes for Power BI dashboards, reducing manual effort by 80%.</p>
+        <a href="https://github.com/saru-reddy/Automated-Reporting-Pipeline" target="_blank">View Project on GitHub →</a>
+      </div>
+    </section>
+
+    <section id="resume" class="mb-5">
+      <h2 class="section-title">Resume</h2>
+      <p>You can download my updated resume here:</p>
+      <a href="Saraswathi_G_Resume.pdf" class="btn btn-custom" download>Download Resume</a>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Contact</h2>
+      <p>If you'd like to collaborate or discuss opportunities, feel free to reach out:</p>
+      <p><strong>Email:</strong> <a href="mailto:saru.reddy@example.com">saru.reddy@example.com</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/saraswathi-g-ba-analyst/" target="_blank">saraswathi-g-ba-analyst</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Saraswathi G. Built with ❤️ and data.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
